@@ -35,10 +35,11 @@ In your template or snippet, call imageWithDefault() and pass in your page objec
 You will get back an image object to use like you would normally, so you can do things like:
 ```
 <?php
-  $image = imageWithDefault( $page, $page->imageField(), 'defaultImage.png');
+  $image = imageWithDefault( $page, $page->coverImage(), 'defaultImage.png');
 
   echo $image; // shows the original image or default if one is not specified
   echo $image->url(); // shows the original image or default images url
   echo thumb( $image, array( 'width' => 300)); //shows a 300px wide version of the image or default image
 ?>
 ```
+That's it!
