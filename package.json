@@ -1,0 +1,8 @@
+{
+  "name": "imageWithDefault",
+  "description": "Simple plugin to use a default image in an image field when no image is supplied.",
+  "author": "Mec Rawlings <mec.rawlings@gmail.com>",
+  "version": "1.0.0",
+  "type": "kirby-plugin",
+  "license": "beer"
+}
